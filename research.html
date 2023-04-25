@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Research with Professor Yuefan Deng at Stony Brook University</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Sam Catalfo</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="campuscupid.html">Campus Cupid</a></li>
+						<li><a href="https://devpost.com/software/halfsies-yvog3m">Halfsies</a></li>
+						<li><a href="rLivestreamFailDaily.html">rLSFDaily</a></li>
+						<li><a href="research.html" class="active">Research</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Research on the k-TSP Problem with Professor Yuefan Deng at Stony Brook University</h1>
+							<p>Our research aimed to find the shortest path between k points when choosing from a larger set of n points, while minimizing the computation time and ensuring that the time scales linearly with the number of points. We implemented a fixed approximation algorithm in C on the Stony Brook supercomputers and compared its performance to a previously implemented brute force method.</p>
+							<h2>Problem Statement</h2>
+							<p>The k-TSP problem involves finding the shortest path that passes through k points in a set of n points. This problem is known to be NP-hard, making it computationally expensive to solve. The goal of our research was to develop an algorithm that could efficiently and accurately solve the problem.</p>
+							<h2>Algorithm Design</h2>
+							<p>We designed a fixed approximation algorithm that produces the same results as the brute force method but with much less computation time. Our algorithm involves starting with a subset of the n points and iteratively adding more points to the subset until we have k points. We then use a heuristic to find the shortest path that passes through the k points in the subset. We repeat this process multiple times with different subsets of points, each time starting with a larger subset, until we obtain the optimal solution.</p>
+							<p>We also improved our original algorithm by reducing the frequency of restarts after the approximation algorithm with double the length, which further reduced the computation time while ensuring the same level of accuracy.</p>
+							<h2>Results</h2>
+							<p>We verified the accuracy of our algorithm by comparing its results with the brute force method. Our algorithm produced the same results as the brute force method, but with significantly less computation time. The time required to solve the problem scaled linearly with the number of points, as we had hoped.</p>
+						</div>
+						
+						
+						
+											</section>
+
+			</div>
+
+		<!-- Footer -->
+		<footer id="footer" class="wrapper alt">
+			<div class="inner">
+				<ul class="menu">
+					<li>&copy; Sam Catalfo. All rights reserved.</li>
+				</ul>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
